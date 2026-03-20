@@ -1,7 +1,10 @@
 /*
-TODO: Problem-2: Declare a variable named "learning" and set its value to true. Use the typeof operator to determine its output.
- */
-//Solution: 
+TODO: Problem-2:Keep the names of your favorite foods in one place. Print all the items separately using a loop program.
+*/
 
-let learning = true;
-console.log(typeof learning); // Output: boolean
+// Solution: 
+
+let favoriteFoods = ["Pizza", "Burger", "Pasta", "Sushi", "Ice Cream"];
+for(let i = 0; i < favoriteFoods.length; i++) {
+    console.log(favoriteFoods[i]);
+}

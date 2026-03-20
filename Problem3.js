@@ -1,8 +1,10 @@
 /*
-TODO: Problem-3: Declare a variable named megaCity and assign it the value "Dhaka", then use typeof to determine the type of the value stored in megaCity.
- */
+TODO: Problem-3: Write the birth years of your family members in an array and use a loop to output the birth years.
+*/
 
-//Solution : 
+// Solution: 
 
-let megaCity = "Dhaka";
-console.log(typeof megaCity); // Output: string
+let birthYears = [1990, 1985, 2000, 1995, 1988];
+for(let i = 0; i < birthYears.length; i++) {
+    console.log(birthYears[i]);
+}

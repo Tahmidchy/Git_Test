@@ -1,8 +1,11 @@
 /*
-TODO: Problem-4: In the scorching heat, I placed my hand on my forehead and felt a high fever. At this moment, I have declared a variable named `temperature`, which has a value of 102.5. Now, if I check this variable using `typeof`, what type of variable will it be?
- */
+TODO: Problem-4: Create a team of your favorite eleven in cricket or football and put the names of your favorite players in an array. Then log to the console and display the names of all the players as output.
+*/
 
-//Solution:
+// Solution:
 
-let temperature = 102.5;
-console.log(typeof temperature); // Output: "number"
+let favoritePlayers = ["Lionel Messi", "Cristiano Ronaldo", "Neymar", "Kylian Mbappe", "Kevin De Bruyne", "Virgil van Dijk", "Sadio Mane", "Mohamed Salah", "Karim Benzema", "Robert Lewandowski", "Harry Kane"];
+
+for(let i = 0; i < favoritePlayers.length; i++) {
+    console.log(favoritePlayers[i]);
+}
